@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Redirect</title>
+</head>
+<body>
+    <p>Redirecting...</p>
+    <script>
+        let quizNumber = Math.floor(Math.random() * 4);
+        const quizUrls = [
+            "https://forms.office.com/r/EVLCBXLVkK",
+            "https://forms.office.com/r/kL4pNqZPzh",
+            "https://forms.office.com/r/S1cnDZT9wL",
+            "https://forms.office.com/r/GK0JMqcLxK"
+        ]
+        window.location.replace(quizUrls[quizNumber])
+    </script>
+</body>
+</html>
