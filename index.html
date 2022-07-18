@@ -7,17 +7,23 @@
     <title>Questionnaire Redirect</title>
 </head>
 <body>
-    <p>Redirecting...</p>
+    <p>Redirecting... Please ensure javascript is enabled</p>
     <script>
         let quizNumber = Math.floor(Math.random() * 4);
-        const quizUrls = [
+        const quizUrlsDev = [
             "https://forms.office.com/r/EVLCBXLVkK",
             "https://forms.office.com/r/kL4pNqZPzh",
             "https://forms.office.com/r/S1cnDZT9wL",
             "https://forms.office.com/r/GK0JMqcLxK"
         ]
-        window.location.replace(quizUrls[0])
-//         window.location.replace(quizUrls[quizNumber])
+        const quizUrls = [
+            "https://forms.office.com/Pages/ResponsePage.aspx?id=tWuWx8AmJ0KybixfsX20St1DVgsujU9GuHhybdoU4MdUMFFUUDE4SUFXU0ZCTDZEU1U3WEtPV1FSRi4u",
+            "https://forms.office.com/Pages/ResponsePage.aspx?id=tWuWx8AmJ0KybixfsX20St1DVgsujU9GuHhybdoU4MdUMk9ZM0NGWTBES0dUWUpKWUlHRkFRM0xMOC4u",
+            "https://forms.office.com/Pages/ResponsePage.aspx?id=tWuWx8AmJ0KybixfsX20St1DVgsujU9GuHhybdoU4MdUNERTQUgxMVJBNU1TTEhTSUUxVFdXNjFZWS4u",
+            "https://forms.office.com/Pages/ResponsePage.aspx?id=tWuWx8AmJ0KybixfsX20St1DVgsujU9GuHhybdoU4MdUOFJBQUhFOFNDT1gwMkw5UUs2SFlaVUExRi4u"
+        ]
+//         window.location.replace(quizUrls[0])
+        window.location.replace(quizUrls[quizNumber])
         
     </script>
 </body>
